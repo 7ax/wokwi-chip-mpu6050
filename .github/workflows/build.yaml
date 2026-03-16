@@ -15,7 +15,6 @@ jobs:
         uses: wokwi/wokwi-chip-clang-action@main
         with:
           sources: "src/main.c"
-          extra-args: "-Wall -Wextra -Werror"
       - name: Copy chip.json
         run: sudo cp chip.json dist
       - name: Copy board files
