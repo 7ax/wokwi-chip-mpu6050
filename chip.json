@@ -1,0 +1,63 @@
+{
+  "name": "MPU-6050",
+  "author": "7ax",
+  "pins": ["VCC", "GND", "SCL", "SDA", "XDA", "XCL", "AD0", "INT"],
+  "controls": [
+    {
+      "id": "accelX",
+      "label": "Accel X (g)",
+      "type": "range",
+      "min": -2.0,
+      "max": 2.0,
+      "step": 0.01
+    },
+    {
+      "id": "accelY",
+      "label": "Accel Y (g)",
+      "type": "range",
+      "min": -2.0,
+      "max": 2.0,
+      "step": 0.01
+    },
+    {
+      "id": "accelZ",
+      "label": "Accel Z (g)",
+      "type": "range",
+      "min": -2.0,
+      "max": 2.0,
+      "step": 0.01
+    },
+    {
+      "id": "gyroX",
+      "label": "Gyro X (\u00b0/s)",
+      "type": "range",
+      "min": -250.0,
+      "max": 250.0,
+      "step": 1.0
+    },
+    {
+      "id": "gyroY",
+      "label": "Gyro Y (\u00b0/s)",
+      "type": "range",
+      "min": -250.0,
+      "max": 250.0,
+      "step": 1.0
+    },
+    {
+      "id": "gyroZ",
+      "label": "Gyro Z (\u00b0/s)",
+      "type": "range",
+      "min": -250.0,
+      "max": 250.0,
+      "step": 1.0
+    },
+    {
+      "id": "temperature",
+      "label": "Temp (\u00b0C)",
+      "type": "range",
+      "min": -40.0,
+      "max": 85.0,
+      "step": 0.1
+    }
+  ]
+}

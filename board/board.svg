@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20mm" height="18mm" viewBox="0 0 20 18">
+  <!-- PCB substrate -->
+  <rect x="0" y="0" width="20" height="18" rx="0.5" fill="#1a237e" stroke="#0d1642" stroke-width="0.15"/>
+
+  <!-- Pin pads (left side, 2.0mm pitch) -->
+  <g fill="#c9a832" stroke="#a88a28" stroke-width="0.05">
+    <rect x="0" y="1.1" width="2.2" height="1.2" rx="0.15"/>  <!-- VCC -->
+    <rect x="0" y="3.1" width="2.2" height="1.2" rx="0.15"/>  <!-- GND -->
+    <rect x="0" y="5.1" width="2.2" height="1.2" rx="0.15"/>  <!-- SCL -->
+    <rect x="0" y="7.1" width="2.2" height="1.2" rx="0.15"/>  <!-- SDA -->
+    <rect x="0" y="9.1" width="2.2" height="1.2" rx="0.15"/>  <!-- XDA -->
+    <rect x="0" y="11.1" width="2.2" height="1.2" rx="0.15"/> <!-- XCL -->
+    <rect x="0" y="13.1" width="2.2" height="1.2" rx="0.15"/> <!-- AD0 -->
+    <rect x="0" y="15.1" width="2.2" height="1.2" rx="0.15"/> <!-- INT -->
+  </g>
+
+  <!-- Pin labels -->
+  <g fill="#ffffff" font-family="monospace" font-size="0.9" text-anchor="start">
+    <text x="2.6" y="2.0">VCC</text>
+    <text x="2.6" y="4.0">GND</text>
+    <text x="2.6" y="6.0">SCL</text>
+    <text x="2.6" y="8.0">SDA</text>
+    <text x="2.6" y="10.0">XDA</text>
+    <text x="2.6" y="12.0">XCL</text>
+    <text x="2.6" y="14.0">AD0</text>
+    <text x="2.6" y="16.0">INT</text>
+  </g>
+
+  <!-- IC package -->
+  <rect x="9" y="5.5" width="7" height="7" rx="0.3" fill="#333333" stroke="#222222" stroke-width="0.15"/>
+  <!-- IC pin-1 dot -->
+  <circle cx="10.0" cy="6.5" r="0.35" fill="#666666"/>
+
+  <!-- Silkscreen labels -->
+  <text x="12.5" y="9.2" fill="#ffffff" font-family="sans-serif" font-size="1.1" font-weight="bold" text-anchor="middle">MPU-6050</text>
+  <text x="12.5" y="10.8" fill="#cccccc" font-family="sans-serif" font-size="0.8" text-anchor="middle">GY-521</text>
+
+  <!-- Attribution -->
+  <text x="19.5" y="17.5" fill="#5c6bc0" font-family="monospace" font-size="0.6" text-anchor="end">@7ax</text>
+
+  <!-- Power LED -->
+  <circle cx="6.5" cy="3.0" r="0.5" fill="#004400" stroke="#003300" stroke-width="0.1"/>
+  <text x="6.5" y="4.2" fill="#888888" font-family="monospace" font-size="0.5" text-anchor="middle">PWR</text>
+</svg>
