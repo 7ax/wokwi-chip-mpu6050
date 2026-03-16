@@ -2,6 +2,10 @@
 
 A [Wokwi](https://wokwi.com/) custom chip emulating the InvenSense/TDK MPU-6050 6-axis accelerometer and gyroscope on a GY-521 breakout board. Communicates over I2C and provides interactive slider controls for accelerometer (X/Y/Z), gyroscope (X/Y/Z), and temperature values. Implements the MPU-6050 register map with correct power-on defaults, sleep mode, configurable full-scale ranges, and burst reads.
 
+<p align="center">
+  <img src="board/board.svg" alt="GY-521 (MPU-6050) Board" width="200"/>
+</p>
+
 ## Usage
 
 Add the chip to your Wokwi project's `diagram.json`:
