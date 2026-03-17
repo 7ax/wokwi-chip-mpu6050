@@ -2,6 +2,7 @@
   "version": 1,
   "name": "MPU-6050",
   "author": "7ax",
+  "docs": "https://github.com/7ax/wokwi-chip-mpu6050",
   "pins": ["VCC", "GND", "SCL", "SDA", "XDA", "XCL", "AD0", "INT"],
   "controls": [
     {
